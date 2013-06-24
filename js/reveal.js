@@ -724,7 +724,7 @@ var Reveal = (function(){
 					span.setAttribute('data-title', anchor.text);
 					span.innerHTML = anchor.innerHTML;
 
-					anchor.classList.add( 'roll' );
+					//anchor.classList.add( 'roll' );
 					anchor.innerHTML = '';
 					anchor.appendChild(span);
 				}
